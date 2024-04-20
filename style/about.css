@@ -126,6 +126,16 @@
 /* RWD---------------------------------- */
 
 @media screen and (max-width:480px) {
+.state-head,
+.state-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+    .state-desc {
+        line-height: 1.5;
+    }
+
     .state-ul {
     flex-wrap: wrap;
     }
@@ -160,4 +170,20 @@
     .state-term {
         font-size: 2rem;
     }
+
+    /* env-------------------------- */
+
+    .env {
+        flex-direction: column;
+    }
+
+    .env-head,
+    .env-body {
+        width: auto;
+    }
+
+    .env-title {
+        text-align: center;
+    }
+
 }
